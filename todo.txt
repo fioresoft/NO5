@@ -1,0 +1,21 @@
+unicode utf-8 support
+events log with filter
+stop auto-scroll when necessary or requested
+tattos and tattos selector
+allow user to restrict font sizes and color effects
+display images
+improve state messages
+allows stealh mode
+packet viewer and sender
+allow user to change build version of messenger
+audibles
+file sharing
+user list using list view control ? as an option
+emote list
+script debug output
+allow other script engines
+improve script editor with line numbers, bookmarks, better error handle, auto complete
+input history
+info tag setup and handling of usefull keys
+internal webcam
+interal voice

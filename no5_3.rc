@@ -1,0 +1,1403 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "atlres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""atlres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_APP_ABOUT
+    SEPARATOR
+    BUTTON      ID_SCRIPT_NEW
+    BUTTON      ID_FORM_NEW
+END
+
+IDR_BOTTOMFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_EDIT_BOLD
+    BUTTON      ID_EDIT_ITALIC
+    BUTTON      ID_EDIT_UNDERLINE
+    SEPARATOR
+    BUTTON      ID_EDIT_FADE
+    BUTTON      ID_EDIT_BLEND
+    SEPARATOR
+    BUTTON      ID_FILLER
+    BUTTON      ID_FILLER
+    SEPARATOR
+    BUTTON      ID_FILLER
+    BUTTON      ID_FILLER
+    BUTTON      ID_FILLER
+    BUTTON      ID_FILLER
+    BUTTON      ID_FILLER
+    BUTTON      ID_FILLER
+    BUTTON      ID_FILLER
+    SEPARATOR
+    BUTTON      ID_FILLER
+    BUTTON      ID_FILLER
+    SEPARATOR
+    BUTTON      ID_FILLER
+    BUTTON      ID_FILLER
+    BUTTON      ID_FILLER
+    BUTTON      ID_FILLER
+    SEPARATOR
+    BUTTON      ID_BOTTOM_SMILES
+END
+
+IDR_PMBOTTOMFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_EDIT_BOLD
+    BUTTON      ID_EDIT_ITALIC
+    BUTTON      ID_EDIT_UNDERLINE
+    SEPARATOR
+    BUTTON      ID_EDIT_FADE
+    BUTTON      ID_EDIT_BLEND
+    SEPARATOR
+    BUTTON      IDC_STATIC
+    BUTTON      IDC_STATIC
+    SEPARATOR
+    BUTTON      IDC_STATIC
+    BUTTON      IDC_STATIC
+    BUTTON      IDC_STATIC
+    BUTTON      IDC_STATIC
+END
+
+IDR_CHATFRAME TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_CHAT_CONNECT
+    SEPARATOR
+    BUTTON      ID_ROOM_SELECT
+    BUTTON      ID_ROOM_PREVIOUS
+    BUTTON      ID_ROOM_NEXT
+    SEPARATOR
+    BUTTON      ID_CHAT_CAM
+    BUTTON      ID_CHAT_VOICE
+END
+
+IDR_FORMFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+END
+
+IDR_TOOLBAR2 TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_FRAME
+    BUTTON      ID_RECTANGLE
+    BUTTON      ID_PICTURE
+    BUTTON      ID_LABEL
+    BUTTON      ID_BUTTON
+    BUTTON      ID_CHECK
+    BUTTON      ID_RADIO
+    BUTTON      ID_TEXT
+    BUTTON      ID_COMBO
+    BUTTON      ID_LIST
+    BUTTON      ID_HSCROLL
+    BUTTON      ID_VSCROLL
+    SEPARATOR
+    BUTTON      ID_SPIN
+    BUTTON      ID_SLIDER
+    BUTTON      ID_PROGRESS
+    SEPARATOR
+    BUTTON      ID_ACTIVEX
+    SEPARATOR
+    BUTTON      ID_DELETE
+    SEPARATOR
+    BUTTON      ID_GRID
+    BUTTON      ID_GRID_SETTINGS
+    SEPARATOR
+    BUTTON      ID_TAB
+    SEPARATOR
+    BUTTON      ID_SELECT_ALL
+    BUTTON      ID_UNSELECT_ALL
+    SEPARATOR
+    BUTTON      ID_PROPERTIES
+END
+
+IDR_TOOLBAR3 TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_LEFT
+    BUTTON      ID_RIGHT
+    BUTTON      ID_UP
+    BUTTON      ID_DOWN
+    SEPARATOR
+    BUTTON      ID_LAYOUT_SENDTOBACK
+    BUTTON      ID_LAYOUT_BRINGTOFRONT
+    SEPARATOR
+    BUTTON      ID_ALIGN_LEFT
+    BUTTON      ID_ALIGN_RIGHT
+    BUTTON      ID_ALIGN_TOP
+    BUTTON      ID_ALIGN_BOTTOM
+    SEPARATOR
+    BUTTON      ID_SPACE_HORZ
+    BUTTON      ID_SPACE_VERT
+    SEPARATOR
+    BUTTON      ID_SIZE_LARGEST_WIDTH
+    BUTTON      ID_SIZE_LARGEST_HEIGHT
+    BUTTON      ID_SIZE_LARGEST
+    SEPARATOR
+    BUTTON      ID_SIZE_SMALLEST_WIDTH
+    BUTTON      ID_SIZE_SMALLEST_HEIGHT
+    BUTTON      ID_SIZE_SMALLEST
+    SEPARATOR
+    BUTTON      ID_CENTER_HORZ
+    BUTTON      ID_CENTER_VERT
+    BUTTON      ID_CENTER
+    SEPARATOR
+    BUTTON      ID_VALIDATE_SCRIPT
+    BUTTON      ID_PREVIEW_AUTO_SIZE
+    BUTTON      ID_PREVIEW
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDR_BOTTOMFRAME         BITMAP  DISCARDABLE     "res\\bottom_toolbar.bmp"
+IDR_PMBOTTOMFRAME       BITMAP  DISCARDABLE     "res\\toolbar1.bmp"
+IDR_CHATFRAME           BITMAP  DISCARDABLE     "res\\chatfram.bmp"
+IDR_FORMFRAME           BITMAP  DISCARDABLE     "res\\formfram.bmp"
+IDR_TOOLBAR2            BITMAP  DISCARDABLE     "res\\Toolbar2.bmp"
+IDR_TOOLBAR3            BITMAP  DISCARDABLE     "res\\Toolbar3.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "New Script",                  ID_SCRIPT_NEW
+        MENUITEM "New Form",                    ID_FORM_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "Op&tions",                    ID_FILE_OPTIONS
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "Colors",                      ID_EDIT_COLORS
+    END
+    POPUP "View"
+    BEGIN
+        MENUITEM "Status bar",                  ID_VIEW_STATUS_BAR
+        MENUITEM "Marquee",                     ID_VIEW_MARQUEE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About NO5...",               ID_APP_ABOUT
+        MENUITEM "Homepage",                    ID_HELP_HOMEPAGE
+    END
+END
+
+IDR_CHATFRAME MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "New Script",                  ID_SCRIPT_NEW
+        MENUITEM "New Form",                    ID_FORM_NEW
+        MENUITEM "&Save As ...",                ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "Op&tions",                    ID_FILE_OPTIONS
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "Colors",                      ID_EDIT_COLORS
+    END
+    POPUP "View"
+    BEGIN
+        MENUITEM "Status bar",                  ID_VIEW_STATUS_BAR
+        MENUITEM "Marquee",                     ID_VIEW_MARQUEE
+    END
+    POPUP "&Chat"
+    BEGIN
+        MENUITEM "&Connect",                    ID_CHAT_CONNECT
+        MENUITEM "&Leave",                      ID_CHAT_LEAVE
+        MENUITEM "Change &Room",                ID_ROOM_SELECT
+        MENUITEM "Start voice",                 ID_CHAT_VOICE
+        MENUITEM "Start web cam",               ID_CHAT_CAM
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "Arrange &Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About NO5...",               ID_APP_ABOUT
+        MENUITEM "Homepage",                    ID_HELP_HOMEPAGE
+    END
+END
+
+IDR_USER MENU DISCARDABLE 
+BEGIN
+    POPUP "User"
+    BEGIN
+        MENUITEM "Ignore",                      ID_USER_IGNORE
+        MENUITEM "Profile",                     ID_USER_PROFILE
+        MENUITEM "Private Message",             ID_USER_PM
+        MENUITEM "View web cam",                ID_USER_CAM
+        MENUITEM "Invite to view webcam",       ID_USER_CAMINVITE
+        MENUITEM "Goto",                        ID_USER_GOTO
+        MENUITEM "Invite to this room",         ID_USER_INVITE
+        POPUP "Buddy"
+        BEGIN
+            MENUITEM "Add",                         ID_USER_BUDDY_ADD
+            MENUITEM "Remove",                      ID_USER_BUDDY_REMOVE
+        END
+        MENUITEM "Mimic",                       ID_USER_MIMIC
+        MENUITEM "Follow",                      ID_USER_FOLLOW
+    END
+    POPUP "BuddyGroup"
+    BEGIN
+        MENUITEM "Rename Group",                ID_GROUP_RENAME
+        MENUITEM "Add Buddy",                   ID_GROUP_ADD
+    END
+END
+
+IDR_PMFRAME MENU DISCARDABLE 
+BEGIN
+    POPUP "PM"
+    BEGIN
+        MENUITEM "Save As ...",                 ID_FILE_SAVE_AS
+        MENUITEM "Close",                       ID_FILE_CLOSE
+    END
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "Copy",                        ID_EDIT_COPY
+    END
+END
+
+IDR_SCRIPTFRAME MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+    END
+    POPUP "Script"
+    BEGIN
+        MENUITEM "Run",                         ID_SCRIPT_RUN
+        MENUITEM "Stop",                        ID_SCRIPT_STOP
+    END
+END
+
+IDR_FORMFRAME MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_UNDO
+        MENUITEM "&Redo\tCtrl+Y",               ID_REDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "&Delete\tDel",                ID_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "Select &All",                 ID_SELECT_ALL
+        MENUITEM "U&nselect All",               ID_UNSELECT_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "Pr&operties...",              ID_PROPERTIES
+    END
+    POPUP "&Controls"
+    BEGIN
+        MENUITEM "&Frame",                      ID_FRAME
+        MENUITEM "&Rectangle",                  ID_RECTANGLE
+        MENUITEM "Pict&ure",                    ID_PICTURE
+        MENUITEM "&Label",                      ID_LABEL
+        MENUITEM "&Button",                     ID_BUTTON
+        MENUITEM "&Check Box",                  ID_CHECK
+        MENUITEM "R&adio Button",               ID_RADIO
+        MENUITEM "&Text Box",                   ID_TEXT
+        MENUITEM "C&ombo Box",                  ID_COMBO
+        MENUITEM "L&ist Box",                   ID_LIST
+        MENUITEM "&Horizontal Scrollbar",       ID_HSCROLL
+        MENUITEM "&Vertical Scrollbar",         ID_VSCROLL
+        MENUITEM SEPARATOR
+        MENUITEM "S&pin Control",               ID_SPIN
+        MENUITEM "Sli&der Control",             ID_SLIDER
+        MENUITEM "Pro&gress Bar Control",       ID_PROGRESS
+        MENUITEM SEPARATOR
+        MENUITEM "Other Active&X Control...",   ID_ACTIVEX
+    END
+    POPUP "&Layout"
+    BEGIN
+        MENUITEM "&Left",                       ID_LEFT
+        MENUITEM "&Right",                      ID_RIGHT
+        MENUITEM "&Up",                         ID_UP
+        MENUITEM "&Down",                       ID_DOWN
+        MENUITEM SEPARATOR
+        MENUITEM "Send To &Back",               ID_LAYOUT_SENDTOBACK
+        MENUITEM "Bring To &Front",             ID_LAYOUT_BRINGTOFRONT
+        MENUITEM SEPARATOR
+        POPUP "&Align"
+        BEGIN
+            MENUITEM "&Left",                       ID_ALIGN_LEFT
+            MENUITEM "&Right",                      ID_ALIGN_RIGHT
+            MENUITEM "&Top",                        ID_ALIGN_TOP
+            MENUITEM "&Bottom",                     ID_ALIGN_BOTTOM
+        END
+        POPUP "S&pace"
+        BEGIN
+            MENUITEM "&Horizontal",                 ID_SPACE_HORZ
+            MENUITEM "&Vertical",                   ID_SPACE_VERT
+        END
+        MENUITEM SEPARATOR
+        POPUP "Size Lar&gest"
+        BEGIN
+            MENUITEM "&Width",                      ID_SIZE_LARGEST_WIDTH
+            MENUITEM "&Height",                     ID_SIZE_LARGEST_HEIGHT
+            MENUITEM "&Both",                       ID_SIZE_LARGEST
+        END
+        POPUP "Size &Smallest"
+        BEGIN
+            MENUITEM "&Width",                      ID_SIZE_SMALLEST_WIDTH
+            MENUITEM "&Height",                     ID_SIZE_SMALLEST_HEIGHT
+            MENUITEM "&Both",                       ID_SIZE_SMALLEST
+        END
+        MENUITEM SEPARATOR
+        POPUP "&Center"
+        BEGIN
+            MENUITEM "&Horizontal",                 ID_CENTER_HORZ
+            MENUITEM "&Vertical",                   ID_CENTER_VERT
+            MENUITEM "&Both",                       ID_CENTER
+        END
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "Toggle &Grid",                ID_GRID
+        MENUITEM "Grid &Settings...",           ID_GRID_SETTINGS
+        MENUITEM SEPARATOR
+        MENUITEM "Set &Tab Order",              ID_TAB
+        MENUITEM SEPARATOR
+        MENUITEM "&Validate Script\tCtrl+Q",    ID_VALIDATE_SCRIPT
+        MENUITEM SEPARATOR
+        POPUP "&Preview"
+        BEGIN
+            MENUITEM "&Auto Sizing...",             ID_PREVIEW_AUTO_SIZE
+            MENUITEM "&None Auto Sizing...",        ID_PREVIEW
+        END
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+END
+
+IDR_EDIT MENU DISCARDABLE 
+BEGIN
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "Cut",                         ID_EDIT_CUT
+        MENUITEM "Copy",                        ID_EDIT_COPY
+        MENUITEM "Paste",                       ID_EDIT_PASTE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\y_happy.ico"
+IDR_CHATFRAME           ICON    DISCARDABLE     "res\\no5_3doc.ico"
+IDI_BUD_OFF             ICON    DISCARDABLE     "res\\y_happy2.ico"
+IDI_STOP                ICON    DISCARDABLE     "res\\stop.ico"
+IDI_START               ICON    DISCARDABLE     "res\\start.ico"
+IDI_SCRIPT              ICON    DISCARDABLE     "res\\script.ico"
+IDI_FORMS               ICON    DISCARDABLE     "res\\forms.ico"
+IDI_CAM                 ICON    DISCARDABLE     "res\\cam.ico"
+IDI_SNAPSHOT            ICON    DISCARDABLE     "res\\camera.ico"
+IDI_TALKING             ICON    DISCARDABLE     "res\\icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 217, 158
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,160,137,50,14
+    CTEXT           "NO5",IDC_STATIC1,20,40,180,39
+    ICON            IDR_MAINFRAME,IDC_STATIC,98,15,20,20
+    GROUPBOX        "",IDC_STATIC,7,7,198,125
+    CTEXT           "homepage",IDC_STATIC2,19,102,180,8,SS_CENTERIMAGE
+    CTEXT           "email",IDC_STATIC3,19,118,180,8,SS_CENTERIMAGE
+    CTEXT           "Thanks",IDC_STATIC4,19,86,180,8,SS_CENTERIMAGE
+END
+
+IDD_ROOMSELECTOR DIALOG DISCARDABLE  0, 0, 341, 210
+STYLE WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Room Selector"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,220,185,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,275,185,50,14
+    COMBOBOX        IDC_COMBO_SERVER,10,10,160,110,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    TVS_TRACKSELECT | WS_BORDER | WS_TABSTOP,10,30,160,150
+    CONTROL         "Tree1",IDC_TREE2,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    TVS_TRACKSELECT | TVS_INFOTIP | WS_BORDER | WS_TABSTOP,
+                    175,30,160,150
+    LTEXT           "Status",IDC_STATUS,177,7,151,15,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_ROOM,13,185,195,106,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_PROPPAGE_PM DIALOG DISCARDABLE  0, 0, 210, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Private Messages"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Popup pm boxes",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,10,10,190,10
+    CONTROL         "Accept pm from friends only",IDC_CHECK2,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,10,26,190,10
+    CONTROL         "Ignore pms with links",IDC_CHECK3,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,10,42,190,10
+    CONTROL         "Always on top ( topmost )",IDC_CHECK4,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,10,58,190,10
+END
+
+IDD_PROPPAGE_GENERAL DIALOG DISCARDABLE  0, 0, 210, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "General Options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Always on top ( topmost )",IDC_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,10,10,190,10
+    CONTROL         "Show enter/leave messages",IDC_CHECK2,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,10,23,190,10
+    GROUPBOX        "connection type",IDC_STATIC,10,40,70,60
+    CONTROL         "dial-up",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,20,55,
+                    37,10
+    CONTROL         "cable-adsl",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,20,
+                    70,50,10
+    CONTROL         "T1",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,20,85,37,10
+END
+
+IDD_PROPPAGE_AUTOIGNORE DIALOG DISCARDABLE  0, 0, 210, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Auto Ignore"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "uses one of these words ",IDC_CHECK_SPAM,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,40,190,10
+    EDITTEXT        IDC_EDIT_STIME,50,75,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SWORDS,5,55,195,14,ES_AUTOHSCROLL
+    LTEXT           "in less than",IDC_STATIC,5,75,40,14,SS_CENTERIMAGE
+    LTEXT           "number of days to auto ignore",IDC_STATIC,5,135,135,8
+    EDITTEXT        IDC_EDIT_ATIME,145,130,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_ATIME,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,190,130,11,14
+    CONTROL         "Auto ignore users who :",IDC_CHECK_AUTO,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,5,90,10
+    CONTROL         "posts more than",IDC_CHECK_FLOOD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,20,70,14
+    EDITTEXT        IDC_EDIT_PPS,80,20,40,14,ES_AUTOHSCROLL
+    LTEXT           "times per second",IDC_STATIC,130,20,54,14,
+                    SS_CENTERIMAGE
+    LTEXT           "seconds after joining the room.",IDC_STATIC,95,75,105,
+                    14,SS_CENTERIMAGE
+    CONTROL         "posts wrong tags",IDC_CHECK_BADTAG,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,100,80,10
+    CONTROL         "is marked as bot by yahoo",IDC_CHECK_YBOT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,97,100,98,10
+END
+
+IDD_PROPPAGE_PIGNORE DIALOG DISCARDABLE  0, 0, 210, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Ignore"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "days:",IDC_STATIC,10,10,30,8
+    EDITTEXT        IDC_EDIT1,45,5,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Remove",IDC_BUTTON1,155,35,50,14
+    PUSHBUTTON      "Remove All",IDC_BUTTON2,155,55,50,14
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,7,26,138,124
+END
+
+IDD_LOGINDLG DIALOG DISCARDABLE  0, 0, 327, 141
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Login"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_COMBO_IDS,10,15,125,55,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_PASSWORD,10,50,175,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_ROOM,10,85,125,80,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Rooms",IDC_ROOM_SELECT,140,85,50,14
+    COMBOBOX        IDC_COMBO_PROTO,210,15,105,45,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_VIEW,210,50,105,45,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SERVER,210,85,105,55,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_PORT,211,116,55,55,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,15,115,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,75,115,50,14
+    PUSHBUTTON      "Delete",IDC_ID_DELETE,140,15,50,14
+    GROUPBOX        "Identity",IDC_STATIC,5,5,190,30
+    GROUPBOX        "Password",IDC_STATIC,5,40,190,30
+    GROUPBOX        "Room",IDC_STATIC,5,75,190,30
+    GROUPBOX        "Server",IDC_STATIC,205,75,115,30
+    GROUPBOX        "Port",IDC_STATIC,205,105,65,30
+    GROUPBOX        "Protocol",IDC_STATIC,205,5,115,30
+    GROUPBOX        "View",IDC_STATIC,205,40,115,30
+END
+
+IDD_COLORS DIALOG DISCARDABLE  0, 0, 267, 170
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Color Editor"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,210,38,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,210,58,50,14
+    SCROLLBAR       IDC_SCROLLBAR1,5,73,150,11
+    SCROLLBAR       IDC_SCROLLBAR2,5,102,150,11
+    SCROLLBAR       IDC_SCROLLBAR3,5,131,150,11
+    LISTBOX         IDC_LIST_COLORS,210,78,50,75,LBS_OWNERDRAWFIXED | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add",ID_COLOR_ADD,0,150,50,14
+    PUSHBUTTON      "Remove",ID_COLOR_REMOVE,50,150,50,14
+    PUSHBUTTON      "Clear",ID_COLOR_CLEAR,100,150,50,14
+    CTEXT           "rich edit will be here",IDC_STATIC1,5,38,190,15,
+                    SS_CENTERIMAGE | WS_BORDER
+    LTEXT           "",IDC_STATIC_COLOR,160,78,45,72,SS_SUNKEN
+    COMBOBOX        IDC_COMBO_NAMES,10,5,100,65,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Save",ID_COLORSET_SAVE,120,5,40,14
+    PUSHBUTTON      "Delete",ID_COLORSET_DELETE,165,5,40,14
+    LTEXT           "Static",IDC_STATIC_RED,5,60,150,8,SS_NOTIFY | SS_SUNKEN
+    LTEXT           "Static",IDC_STATIC_GREEN,5,89,150,8,SS_NOTIFY | 
+                    SS_SUNKEN
+    LTEXT           "Static",IDC_STATIC_BLUE,5,118,150,8,SS_NOTIFY | 
+                    SS_SUNKEN
+    CTEXT           "Static",IDC_STATIC_CODE,161,62,41,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+END
+
+IDD_COMPLETE DIALOGEX 0, 0, 153, 90
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CLIPCHILDREN | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_NOPARENTNOTIFY | WS_EX_TOOLWINDOW
+CAPTION "Complete"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST1,7,7,139,76,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_PROPPAGE_VISUAL DIALOG DISCARDABLE  0, 0, 210, 154
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Chat Colors"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_COMBO1,15,40,120,110,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Preview",IDC_STATIC_PREVIEW,10,120,190,25
+    PUSHBUTTON      "Choose",IDC_BUTTON1,80,60,40,14
+    PUSHBUTTON      "Default",IDC_BUTTON2,125,60,40,14
+    PUSHBUTTON      "Choose",IDC_BUTTON3,80,75,40,14
+    PUSHBUTTON      "Default",IDC_BUTTON4,125,75,40,14
+    PUSHBUTTON      "Choose",IDC_BUTTON7,80,90,40,14
+    PUSHBUTTON      "Default",IDC_BUTTON8,125,90,40,14
+    PUSHBUTTON      "Restore all",IDC_BUTTON9,5,5,50,14
+    PUSHBUTTON      "Choose",IDC_BUTTON5,120,5,40,14
+    PUSHBUTTON      "Default",IDC_BUTTON6,165,5,40,14
+    LTEXT           "Background color",IDC_STATIC,60,10,57,8
+    LTEXT           "font color: ",IDC_STATIC,15,60,34,14,SS_CENTERIMAGE
+    LTEXT           "font face",IDC_STATIC,15,75,29,14,SS_CENTERIMAGE
+    LTEXT           "font back color",IDC_STATIC,15,90,48,14,SS_CENTERIMAGE
+    GROUPBOX        "items",IDC_STATIC,5,30,200,80
+END
+
+IDD_INPUT DIALOG DISCARDABLE  0, 0, 186, 90
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,40,65,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,105,65,50,14
+    LTEXT           "Static",IDC_LABEL1,10,10,165,8
+    EDITTEXT        IDC_EDIT1,10,28,165,14,ES_AUTOHSCROLL
+END
+
+IDD_CAMVIEW DIALOG DISCARDABLE  0, 0, 112, 139
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_WCVIEWER1,"{9D39223E-AE8E-11D4-8FD3-00D0B7730277}",
+                    WS_TABSTOP,0,15,111,78
+    EDITTEXT        IDC_EDIT1,0,95,111,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Disconnect",IDC_BUTTON1,0,110,111,14
+    CTEXT           "Status",IDC_STATIC1,0,0,111,14,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    PUSHBUTTON      "Snapshot",IDC_SNAPSHOT,0,125,50,14
+    PUSHBUTTON      "Record",IDC_RECORD,60,125,50,14
+END
+
+IDD_CAMUP DIALOG DISCARDABLE  0, 0, 127, 151
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Cam broadcast"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_UPLDLG1,"{8714912E-380D-11D5-B8AA-00D0B78F3D48}",
+                    WS_TABSTOP,7,7,113,137
+END
+
+IDD_SCRIPTS DIALOG DISCARDABLE  0, 0, 176, 196
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Run",IDC_BUTTON1,7,70,34,14
+    PUSHBUTTON      "Edit",IDC_BUTTON2,45,70,34,14
+    PUSHBUTTON      "Stop all",IDC_BUTTON3,60,175,50,14
+    LISTBOX         IDC_LIST1,7,5,160,60,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "running scripts:",IDC_STATIC1,7,95,160,8
+    LISTBOX         IDC_LIST2,7,110,160,60,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Stop",IDC_BUTTON4,7,175,50,14
+    PUSHBUTTON      "Reload",IDC_BUTTON5,85,70,34,14
+    PUSHBUTTON      "New",IDC_BUTTON6,125,70,34,14
+END
+
+IDD_FORMVIEW2 DIALOG DISCARDABLE  0, 0, 250, 129
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Form"
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 151
+    END
+
+    IDD_ROOMSELECTOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 334
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_PROPPAGE_PM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PROPPAGE_GENERAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PROPPAGE_AUTOIGNORE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PROPPAGE_PIGNORE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_LOGINDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 320
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+
+    IDD_COLORS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 260
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 163
+    END
+
+    IDD_COMPLETE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 146
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_PROPPAGE_VISUAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_INPUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_CAMVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 105
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 132
+    END
+
+    IDD_CAMUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 120
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+
+    IDD_SCRIPTS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 159
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 189
+    END
+
+    IDD_FORMVIEW2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 243
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 122
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+END
+
+IDR_BOTTOMFRAME ACCELERATORS DISCARDABLE 
+BEGIN
+    VK_RIGHT,       ID_EDIT_COMPLETE,       VIRTKEY, NOINVERT
+END
+
+IDR_PMFRAME ACCELERATORS DISCARDABLE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,0,4,5
+ PRODUCTVERSION 3,0,4,5
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "NO5 chat client\0"
+            VALUE "FileVersion", "3.0.4.4\0"
+            VALUE "InternalName", "NO5\0"
+            VALUE "LegalCopyright", "Copyright 2007\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "NO5.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "NO5\0"
+            VALUE "ProductVersion", "3.0.4.5\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// HTML
+//
+
+IDR_HTML1               HTML    DISCARDABLE     "res\\html1.htm"
+IDR_HTML_CHAT           HTML    DISCARDABLE     "res\\html_cha.htm"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_CAMVIEW DLGINIT
+BEGIN
+    IDC_WCVIEWER1, 0x376, 16, 0
+0x0000, 0x0000, 0x0710, 0x0000, 0x1143, 0x0000, 0x0d20, 0x0000, 
+    0
+END
+
+IDD_CAMUP DLGINIT
+BEGIN
+    IDC_UPLDLG1, 0x376, 16, 0
+0x0000, 0x0000, 0x0300, 0x0000, 0x1192, 0x0000, 0x170c, 0x0000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "NO5"
+    IDR_SCRIPTFRAME         "Script editor"
+    IDR_PMBOX               "pmbox title"
+    IDR_FORMFRAME           "Form Editor"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_NAME_USR            "user name"
+    IDS_NAME_BUD            "buddy name"
+    IDS_NAME_ME             "my name"
+    IDS_TXT_USR             "user text"
+    IDS_TXT_BUD             "buddy text"
+    IDS_TXT_ME              "my text"
+    IDS_TXT_EMOTE           "emotions text"
+    IDS_ENTER_USR           "user enters room"
+    IDS_ENTER_BUD           "buddy enters room"
+    IDS_LEAVE_USR           "users leaves room"
+    IDS_LEAVE_BUD           "buddy leaves room"
+    IDS_AWAY_AVAILABLE      "Available"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new chat view\nNew chat"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ATL_IDS_SCSIZE          "Change the window size"
+    ATL_IDS_SCMOVE          "Change the window position"
+    ATL_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    ATL_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    ATL_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    ATL_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    ATL_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ATL_IDS_SCRESTORE       "Restore the window to normal size"
+    ATL_IDS_SCTASKLIST      "Activate Task List"
+    ATL_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ATL_IDS_IDLEMESSAGE     "NO5"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ATL_IDS_MRU_FILE        "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_COLORS          "Open color list editor\nColor editor"
+    ID_CUT                  "Cut the current selection to the clipboard\nCut [Ctrl+X]"
+    ID_COPY                 "Copy the current selection to the clipboard\nCopy [Ctrl+C]"
+    ID_PASTE                "Paste the contents of the clipboard into the form\nPaste [Ctrl+V]"
+    ID_UNDO                 "Undo the last operation\nUndo [Ctrl+Z]"
+    ID_REDO                 "Redo the last undo\nRedo [Ctrl+Y]"
+    ID_FRAME                "Insert a frame\nFrame"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_HSCROLL              "Insert a horizontal scrollbar\nHorizontal Scrollbar"
+    ID_CHAT_CAM             "start your webcam\ncam"
+    ID_BOTTOM_SMILES        "Smile picker\nSmiles"
+    ID_FORM_NEW             "Opens a new form editor\nNew form editor"
+    ID_EDIT_BOLD            "Bold\nBold"
+    ID_EDIT_ITALIC          "Italic\nItalic"
+    ID_EDIT_UNDERLINE       "Underline\nUnderline"
+    ID_EDIT_FADE            "Fade\nFade"
+    ID_EDIT_BLEND           "Blend\nBlend"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_USER_IGNORE          "Ignore user\nIgnore"
+    ID_USER_CAM             "View user's web cam\nWebcam"
+    ID_USER_PROFILE         "View user profile\nProfile"
+    ID_USER_PM              "Send a private message to this user\nPM"
+    ID_VIEW_MARQUEE         "Show or hide the marquee bar\nToggle Marquee"
+    ID_USER_BUDDY_ADD       "Add this user to your buddy list\nAdd buddy"
+    ID_USER_BUDDY_REMOVE    "Remove this user from your buddy list\nRemove buddy"
+    ID_USER_GOTO            "Goes to the same room as this user\nGoto"
+    ID_USER_INVITETOTHISROOM "Invite user to your chat room\nInvite"
+    ID_USER_INVITE          "Invite user to this room\nInvite"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_BUTTON               "Insert a button\nButton"
+    ID_CHECK                "Insert a check box\nCheck Box"
+    ID_COMBO                "Insert a combo box\nCombo Box"
+    ID_LIST                 "Insert a list box\nList Box"
+    ID_SPIN                 "Insert a spin control\nSpin Control"
+    ID_SLIDER               "Insert a slider control\nSlider Control"
+    ID_PROGRESS             "Insert a progress bar control\nProgress Bar Control"
+    ID_ACTIVEX              "Insert an ActiveX control\nActiveX"
+    ID_DELETE               "Delete the currently selected items\nDelete [Del]"
+    ID_GRID                 "Toggle the grid\nToggle Grid"
+    ID_GRID_SETTINGS        "Show the grid settings dialog\nGrid Settings"
+    ID_TAB                  "Switch the form editor into tab ordering mode\nSet Tab Order"
+    ID_SELECT_ALL           "Select all items\nSelect All"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_ROOM_SELECT          "Select a room\nRooms"
+    ID_FILE_OPTIONS         "Set program options\nOptions"
+    ID_FILE_CONNECT         "Connect-Disconnect from chat\nConnect-Disconnect"
+    ID_ROOM_PREVIOUS        "Return to previous room\nPrevious"
+    ID_ROOM_NEXT            "Goto next room\nNext"
+    ID_CHAT_LEAVE           "Leave chat room\nLeave"
+    ID_CHAT_CHANGEROOM      "Select another room\nRooms"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_CHATFRAME           "Chat"
+    IDS_HOMEPAGE            "http://no5.helpbytes.co.uk/"
+    IDS_EMAIL               "no5software@gmail.com"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SCRIPT_NEW           "Opens a new script editor\nNew script editor"
+    ID_LAYOUT_SENDTOBACK    "Move selected items to the back of all other items\nSend To Back"
+    ID_LAYOUT_BRINGTOFRONT  "Move selected items to the front of all other items\nBring To Front"
+    ID_LABEL                "Insert a label\nLabel"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_AWAY_BRB            "Be right back"
+    IDS_AWAY_BUSY           "Busy"
+    IDS_AWAY_HOME           "Not at home"
+    IDS_AWAY_DESK           "Not at the desk"
+    IDS_AWAY_OFFICE         "Not in the office"
+    IDS_AWAY_PHONE          "On phone"
+    IDS_AWAY_VACATION       "On Vacation"
+    IDS_AWAY_LUNCH          "Out to lunch"
+    IDS_AWAY_OUT            "Stepped out"
+    IDS_AWAY_INVISIBLE      "Invisible"
+    IDS_AWAY_CUSTOM         "Custom"
+    IDS_AWAY_IDLE           "Idle"
+    IDS_AWAY_ON             "Online"
+    IDS_AWAY_OFF            "Offline"
+    IDS_AWAY_TYPE           "Typing"
+    IDS_AWAY_GAME           "Game"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_UNSELECT_ALL         "Unselect all items\nUnselect All"
+    ID_PROPERTIES           "Show the properties dialog for the current selection\nProperties"
+    ID_LEFT                 "Move selected items left by a single pixel\nLeft"
+    ID_RIGHT                "Move selected items right by a single pixel\nRight"
+    ID_UP                   "Move selected items up by a single pixel\nUp"
+    ID_DOWN                 "Move selected items down by a single pixel\nDown"
+    ID_ALIGN_LEFT           "Align selected items to the left most\nAlign Left"
+    ID_ALIGN_RIGHT          "Align selected items to the right most\nAlign Right"
+    ID_ALIGN_TOP            "Align selected items to the top most\nAlign Top"
+    ID_ALIGN_BOTTOM         "Align selected items to the bottom most\nAlign Bottom"
+    ID_SPACE_HORZ           "Space selected items horizontally\nSpace Horz"
+    ID_SPACE_VERT           "Space selected items vertically\nSpace Vert"
+    ID_SIZE_LARGEST_WIDTH   "Size selected items to the largest width\nSize Largest Width"
+    ID_SIZE_LARGEST_HEIGHT  "Size selected items to the largest height\nSize Largest Height"
+    ID_SIZE_LARGEST         "Size selected items to the largest\nSize Largest"
+    ID_SIZE_SMALLEST_WIDTH  "Size selected items to the smallest width\nSize Smallest Width"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SIZE_SMALLEST_HEIGHT "Size selected items to the smallest height\nSize Smallest Height"
+    ID_SIZE_SMALLEST        "Size selected items to the smallest\nSize Smallest"
+    ID_CENTER_HORZ          "Align selected items to the form horizontal center\nCenter Horz"
+    ID_CENTER_VERT          "Align selected items to the form vertical center\nCenter Vert"
+    ID_CENTER               "Align selected items to the form center\nCenter"
+    ID_VALIDATE_SCRIPT      "Check the script for errors\nValidate Script [Ctrl+Q]"
+    ID_PREVIEW_AUTO_SIZE    "Show an auto sized  preview of the form\nPreview (Auto Sizing)"
+    ID_PREVIEW              "Show a preview of the form\nPreview (None Auto Sizing)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_IG_FLOOD            "Exceeded posting rate"
+    IDS_IG_BADTAG           "Bad tag detected"
+    IDS_IG_REPEAT           "Repeated posts"
+    IDS_IG_SPAM             "Possible spammer"
+    IDS_IG_YBOT             "Marked by yahoo as bot"
+    IDS_NOYCHT              "This feature is not implemented for YCHT protocol"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_CHAT_VOICE           "Starts yaho voice chat\nVoice chat"
+    ID_CHAT_CONNECT         "Connect-Disconnect from chat\nConnect-Disconnect"
+    ID_CHAT_STARTWEBCAM     "Starts your webcam\nWebcam"
+    ID_HELP_HOMEPAGE        "Opens NO5 homepage\nNO5 homepage"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_YAHOOTXTOBJ_DESC    "YahooTxtObj Class"
+    IDS_TIMEROBJ_DESC       "TimerObj Class"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Portuguese (Brazil) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PTB)
+#ifdef _WIN32
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE_BRAZILIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_BUDDIES DIALOG DISCARDABLE  0, 0, 191, 156
+STYLE WS_CHILD | WS_CLIPCHILDREN
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "your id : ",IDC_STATIC1,15,5,35,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO1,55,5,125,118,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    TVS_INFOTIP | WS_BORDER | WS_TABSTOP,5,25,175,125
+END
+
+IDD_SCRIPTFRAME DIALOGEX 0, 0, 306, 222
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "Script Editor"
+MENU IDR_SCRIPTFRAME
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO_OBJS,5,5,86,81,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_EVENTS,94,5,160,84,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Static",IDC_STATIC1,5,25,290,190,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    PUSHBUTTON      "Button1",ID_SCRIPT_RUN,257,5,16,16,BS_ICON | BS_NOTIFY | 
+                    BS_FLAT,WS_EX_STATICEDGE
+    PUSHBUTTON      "Button1",ID_SCRIPT_STOP,275,5,16,16,BS_ICON | BS_NOTIFY | 
+                    BS_FLAT,WS_EX_STATICEDGE
+END
+
+IDD_FORMLIST DIALOG DISCARDABLE  0, 0, 186, 146
+STYLE WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LIST1,7,7,172,112,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Edit",ID_FORM_EDIT,19,122,29,14
+    PUSHBUTTON      "Run",ID_FORM_RUN,58,122,29,14
+    PUSHBUTTON      "New",ID_FORM_NEW,97,122,29,14
+    PUSHBUTTON      "Reload",ID_FORM_RELOAD,136,122,29,14
+END
+
+IDD_VOICE DIALOG DISCARDABLE  0, 0, 172, 196
+STYLE WS_MINIMIZEBOX | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Voice chat"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_SORTASCENDING | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,21,20,134,120
+    CONTROL         "Progress1",IDC_PROGRESS_INPUT,"msctls_progress32",
+                    PBS_VERTICAL | WS_BORDER,5,20,10,120
+    CONTROL         "Progress1",IDC_PROGRESS_OUTPUT,"msctls_progress32",
+                    PBS_VERTICAL | WS_BORDER,160,20,10,120
+    PUSHBUTTON      "Talk",IDC_BUTTON_TALK,70,145,50,14
+    CONTROL         "Hands free",IDC_CHECK_FREE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,5,145,55,10
+    PUSHBUTTON      "Connect",IDC_BUTTON_CONNECT,5,165,165,10
+    CTEXT           "Status",IDC_STATUS,5,180,165,10,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "",IDC_LABEL_REPORT,125,145,42,14,SS_CENTERIMAGE
+    CTEXT           "who is talking",IDC_LABEL_TALKING,5,5,160,8,
+                    SS_CENTERIMAGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_BUDDIES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 184
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_SCRIPTFRAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 299
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 215
+    END
+
+    IDD_FORMLIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+
+    IDD_VOICE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 165
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 189
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Portuguese (Brazil) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
