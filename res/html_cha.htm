@@ -1,0 +1,280 @@
+<html>
+<head>
+<title>Untitled</title>
+<style>
+
+span.user
+{
+	cursor: hand;
+	background-color: color-window;
+	color: #800000;
+	font-family: tahoma;
+	font-size: 10pt;
+	font-weight: bold;
+}
+span.me
+{
+	cursor: hand;
+	background-color: #FFFFCC;
+	color: #0000C0;
+	font-family: tahoma;
+	font-size: 10pt;
+	font-weight: bold;
+}
+span.buddy
+{
+	cursor: hand;
+	background-color: color-window;
+	color: #008080;
+	font-family: tahoma;
+	font-size: 10pt;
+	font-weight: bold;
+}
+span.userOver
+{
+	cursor: hand;
+	background-color: color-window;
+	color: #FF0000;
+	font-family: tahoma;
+	font-size: 10pt;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+span.meOver
+{
+	cursor: hand;
+	background-color: #FFFFCC;
+	color: #0000FF;
+	font-family: tahoma;
+	font-size: 10pt;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+span.buddyOver
+{
+	cursor: hand;
+	background-color: color_window;
+	color: #00FFFF;
+	font-family: tahoma;
+	font-size: 10pt;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+div.user
+{
+	background-color: color-window;
+	color: color-text;
+	font-family: tahoma;
+	font-size: 10pt;
+}
+div.me
+{
+	background-color: color-window;
+	color: color-text;
+	font-family: tahoma;
+	font-size: 10pt;
+}
+div.buddy
+{
+	background-color: color-window;
+	color: color-text;
+	font-family: tahoma;
+	font-size: 10pt;
+}
+div.userOver
+{
+	background-color: color-window;
+	color: color-text;
+	font-family: tahoma;
+	font-size: 10pt;
+}
+div.meOver
+{
+	background-color: color-window;
+	color: color-text;
+	font-family: tahoma;
+	font-size: 10pt;
+}
+div.buddyOver
+{
+	background-color: color_window;
+	color: color-text;
+	font-family: tahoma;
+	font-size: 10pt;
+}
+div.pm
+{
+	background-color: #f000f0;
+	color: color-text;
+	font-family: tahoma;
+	font-size: 10pt;
+}
+div.pmOver
+{
+	background-color: #f000f0;
+	color: color-text;
+	font-family: tahoma;
+	font-size: 10pt;
+}
+</style>
+
+<script FOR="idlink" EVENT="onclick">
+	window.external.OnLinkClick(window.event.srcElement.getAttribute("name"));
+	window.event.cancelBubble = true;
+	return false;
+</script>
+
+<script language="jscript">
+
+function OnDivOver( el )
+{
+ var cls;
+
+ if(el.className == "user")
+	cls = "userOver";
+ else if(el.className == "me")
+	cls = "meOver";
+ else if(el.className == "buddy")
+    cls = "buddyOver";
+ else if(el.className == "pm")
+	cls = "pmOver";
+ else
+	cls = el.className;
+ el.className = cls;
+ window.event.cancelBubble = true;
+ return true;
+}
+
+
+function OnDivOut( el )
+{
+ var cls;
+
+ if(el.className == "userOver")
+	cls = "user"
+ else if(el.className == "meOver")
+	cls = "me";
+ else if(el.className == "buddyOver")
+    cls = "buddy";
+ else if(el.className == "pmOver")
+    cls = "pm";
+ else
+	cls = "user";
+ el.className = cls;
+ window.event.cancelBubble = true;
+ return true;
+}
+
+
+function OnDivClick( el )
+{
+	var user = el.getAttribute("user");
+	if(user != null)
+		window.external.OnDivClick( user );
+	window.event.cancelBubble = true;
+	return true;
+}
+function OnDivDblClk( el )
+{
+	var user = el.getAttribute("user");
+	if(user != null)
+		window.external.OnDivDblClk( user );
+	window.event.cancelBubble = true;
+	return true;
+}
+
+function OnDivRClick( el )
+{
+	var user = el.getAttribute("user");
+	if(user != null)
+		window.external.OnDivRClick( user );
+	window.event.cancelBubble = true;
+	window.event.returnValue = true; // allow context menu
+	return true;
+}
+
+function OnUserOver( el )
+{
+ var cls;
+
+ if(el.className == "user")
+	cls = "userOver"
+ else if(el.className == "me")
+	cls = "meOver";
+ else if(el.className == "buddy")
+    cls = "buddyOver";
+ else
+    cls = el.className;
+
+ el.className = cls;
+ window.event.cancelBubble = true;
+ return true;
+}
+
+
+function OnUserOut( el )
+{
+ var cls;
+
+ if(el.className == "userOver")
+	cls = "user";
+ else if(el.className == "meOver")
+	cls = "me";
+ else if(el.className == "buddyOver")
+	cls = "buddy";
+ else
+	cls = "user";
+ el.className = cls;
+ window.event.cancelBubble = true;
+ return true;
+}
+
+
+function OnUserClick( el )
+{
+	var user = el.getAttribute("user");
+	if(user != null)
+		window.external.OnUserClick( user );
+	window.event.cancelBubble = true;
+	return true;
+}
+function OnUserDblClk( el )
+{
+	var user = el.getAttribute("user");
+		if(user != null)
+	window.external.OnUserDblClk( user );
+	window.event.cancelBubble = true;
+	return true;
+}
+
+function OnUserRClick( el )
+{
+	var user = el.getAttribute("user");
+	var evnt = window.event;
+	window.external.OnUserRClick( user,evnt.screenX,evnt.screenY );
+	evnt.cancelBubble = true;
+	evnt.returnValue = false;
+	return true;
+}
+
+function OnAnswerPm( el )
+{
+	var user = el.getAttribute("user");
+	var e = window.event;
+	if(user != null){
+		window.external.OnAnswerPm(user);
+	}
+	else
+		alert("name is null");
+	e.cancelBubble = true;
+	e.returnValue = false;
+	return true;
+}
+
+
+</script>
+</head>
+<body>
+</body>
+</html>
+
